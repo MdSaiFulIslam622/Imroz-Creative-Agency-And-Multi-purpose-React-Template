@@ -1,0 +1,156 @@
+/* XL Device :1200px. */
+@media (min-width: 1450px) and (max-width: 1600px) {}
+
+@media (min-width: 1200px) and (max-width: 1449px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .left {
+        margin-left: -70px;
+    }
+
+    .left .social-icon {
+        margin-left: -135px;
+    }
+
+    .main-menu {
+        display: none;
+    }    
+
+    .right {
+        padding-left: 4px;
+        margin-top: 41px;
+    }
+
+    .about img {
+        width: 659px;
+        height: 643px;
+    }
+
+    .service-box {
+        width: 350px;
+        height: 260px;
+        padding: 30px 30px;
+    }
+
+    .copyright {
+        text-align: center;
+        margin-left: 101px;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+    .contact-info .contact-address a {
+        font-weight: 600;
+    }
+
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .copyright p {
+        text-align: center;
+    }
+
+    .right {
+        padding: 0;
+        margin-left: 5px;
+        margin-top: 27px;
+    }
+
+    .section-title h2.title {
+        line-height: 52px;
+    }
+
+    ul.sub-menu {
+        border: none;
+    }
+
+    .social-icon ul li a {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .left button {
+        margin: -147px -129px 0;
+    }
+
+    .left .logo {
+        margin-left: -25px;
+    }
+
+    .title h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .animation h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .title h3 {
+        font-size: 30px;
+        line-height: 35px;
+        ;
+    }
+
+    .title button {
+        margin-left: -8px;
+    }
+
+}
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+/* small device : 250px- 550px */
+@media only screen and (min-width: 250px) and (max-width: 550px) {
+
+    .section-padding {
+        padding-top: 0;
+    }
+
+    .logo img {
+        width: 25%;
+        height: 100%;
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+
+    .left button {
+        margin-left: -170px;
+    }
+
+    .content p {
+        padding: 0 6px;
+    }
+
+    .section-title h2.title {
+        line-height: 55px;
+        font-size: 33px;
+    }
+
+    .contact-info .contact-address a {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+}

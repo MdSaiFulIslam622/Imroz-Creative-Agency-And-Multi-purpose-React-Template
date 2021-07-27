@@ -1,0 +1,738 @@
+/* === google font === */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+/* ==== default css here ==== */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0E1525;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: rgba(198, 201, 216, .75);
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+span.sub-title {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5px;
+    line-height: 18px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+span.sub-title {
+    background: #fd4766;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%, #fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+
+
+.section-title h2.title {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 20px;
+}
+
+/* === 0.1 home section css here === */
+
+.logo img {
+    max-width: 100%;
+    max-height: 60px;
+}
+
+.fixed {
+    position: fixed;
+}
+
+#home {
+    background-color: #101010;
+    background: url("../images/home/bg-image.jpg") no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.left {
+    padding: 23px 0;
+}
+
+/* === main-menu start === */
+.nav-link {
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    transition: .3s ease;
+}
+
+.navbar-nav {
+    padding: -15px 10px 20px;
+    margin-top: -118px;
+    margin-left: 60px;
+    position: fixed;
+}
+
+
+.navbar-nav .nav-item .nav-link::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fafd26;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    margin-bottom: 5px;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after {
+    width: 100%;
+
+
+}
+
+/* === main-menu end === */
+
+
+/* === social icon start=== */
+.social-icon ul {
+    display: block;
+}
+
+.social-icon ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px 13px;
+}
+
+.social-icon ul a {
+    color: #ddd;
+    transition: all .3s ease;
+}
+
+.social-icon i:hover {
+    transform: translateY(-4px);
+    color: #fff;
+    transition: all .3s ease;
+
+}
+
+.btn {
+    color: rgba(198, 201, 216, .75) !important;
+    border: 2px solid rgba(198, 201, 216, .75);
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    transform: translate(149%, -130%);
+}
+
+.btn-2 {
+    color: rgba(198, 201, 216, .75) !important;
+    border: 2px solid rgba(198, 201, 216, .75);
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+}
+
+.btn-2:hover {
+    color: #fff !important;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+    transition: all .4s ease-in-out;
+}
+
+.btn:hover {
+    color: #fff !important;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+    transition: all .4s ease-in-out;
+}
+
+/* === social icon end=== */
+
+
+/* === 0.2 home section css here === */
+.title span {
+    color: #ddd;
+    font-size: 15px;
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 0 0;
+}
+
+.animation h2 {
+    color: #fd4766;
+    font-size: 54px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 0 14px;
+}
+
+.title h3 {
+    color: #ffff;
+    font-size: 54px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 0 14px;
+}
+
+.title .btn {
+    position: relative;
+    top: 91px;
+    left: -349px;
+}
+
+/* === 0.3 about section css here === */
+.about img {
+    width: 450px;
+    height: 555px;
+    border-radius: 7px;
+    background: #ddd;
+}
+
+/* === about me menu css start === */
+ul.sub-menu {
+    border: 2px solid rgba(198, 201, 216, .75);
+    border-radius: 500px;
+    line-height: 50px;
+    padding: 0;
+}
+
+.menu-border .sub-menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 38px 0 4px;
+    margin-left: 14px;
+}
+
+.menu-border .sub-menu li a {
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 13px;
+}
+
+.menu-border .sub-menu li:hover {
+    background: #fd4766;
+    border-radius: 500px;
+}
+
+.menu-border .sub-menu li:first-child {
+    background: #fd4766;
+    border-radius: 500px;
+    margin-left: 0px;
+    padding: -113px -1px;
+}
+
+.single-progress .progress {
+    height: 4px;
+    border-radius: 4px;
+    box-shadow: none;
+    background-color: #f5f7fd;
+    overflow: visible;
+}
+
+.progress {
+    height: 1rem;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.single-progress {
+    position: relative;
+    padding: 16px 10px;
+    top: 30px;
+
+}
+
+.single-progress .label {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #1f1f25;
+    font-size: 15px;
+    color: #a2a9ad;
+}
+
+.single-progress .title {
+    font-size: 15px;
+    color: #1f1f25;
+    margin-bottom: 10px;
+}
+
+.single-progress .progress .progress-bar {
+    background-color: #fd4766;
+    background-color: var(--color-primary);
+    background-image: linear-gradient(-224deg, #fd4766, #337dff) !important;
+    background-image: linear-gradient(-224deg, var(--color-primary), var(--color-secondary));
+    position: relative;
+    color: #337dff;
+    color: var(--color-secondary);
+}
+
+.right {
+    padding-left: 62px;
+}
+
+.single-progress .title {
+    color: #a2a9ad;
+}
+
+/* === about me menu css end === */
+
+/* === 0.4 service css here start=== */
+.service-box {
+    background: rgb(9, 16, 32);
+    width: 348px;
+    height: 270px;
+    border-radius: 8px;
+    padding: 34px 29px;
+    transition: all 0.3s ease;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.content .title {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 0 -0 17px;
+}
+
+.service-icon {
+    font-size: 33px;
+    color: #fd4766;
+    padding: 0 0 15px;
+}
+
+.service-icon-2 {
+    font-size: 33px;
+    color: #3076F1;
+    padding: 0 0 15px;
+}
+
+.service-icon-3 {
+    font-size: 33px;
+    color: #12d8df;
+    padding: 0 0 15px;
+}
+
+.service-icon-4 {
+    font-size: 33px;
+    color: #59c98d;
+    padding: 0 0 15px;
+}
+
+.service-icon-5 {
+    font-size: 33px;
+    color: #4f31b4;
+    padding: 0 0 15px;
+}
+
+.service-icon-6 {
+    font-size: 33px;
+    color: #357ff6;
+    padding: 0 0 15px;
+}
+
+/* === 0.4 service css here end=== */
+
+/* === 0.5 potfolio css here start === */
+.single-item-box {
+    position: relative;
+    border-radius: 10px;
+    z-index: 2;
+    overflow: hidden;
+    margin-top: 30px;
+    transition: transform .65s cubic-bezie(.05, .2, .1, 1), box-shadow .65s cubic-bezier(.05, .2, .1, 1);
+    cursor: pointer;
+}
+
+.single-item-box::before,
+.single-item-box::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.single-item-box::before {
+    background: linear-gradient(180deg, rgba(15, 15, 15, 0), rgba(13, 12, 0.85));
+    opacity: 1;
+}
+
+.single-item-box::after {
+    background: linear-gradient(180deg, transparent, #EF4461);
+    opacity: 0;
+}
+
+.single-item-img a img {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.single-box-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    width: 100%;
+    padding: 20px;
+}
+
+.content-title a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    opacity: 0.7;
+    display: inline-block;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.content-title h4 a {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.content-title a {
+    text-decoration: none;
+}
+
+.content-hidden p {
+    font-size: 17px;
+    line-height: 25px;
+    opacity: 0.7;
+    font-weight: 500;
+    padding: 0 30px;
+}
+
+.content-hidden {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    margin-top: 10px;
+    transform: translateY(20px);
+    transition: opacity .18s cubic-bezier(.05, .2, .1, 1), transform .18s cubic-bezier(.05, .2, .1, 1);
+    opacity: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+/* === all hover potfolio start=== */
+.single-item-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 55px rgba(242, 15, 15, 0.09);
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.single-item-box:hover.single-item-box::before {
+    opacity: 0;
+}
+
+.single-item-box:hover.single-item-box::after {
+    opacity: 1;
+}
+
+.single-item-box:hover img {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.single-item-box:hover .content-title {
+    transform: translateY(-50px);
+    transition: opacity .65s cubic-bezier(.05, .2, .1, 1), transform .65s cubic-bezier(.05, .2, .1, 1);
+}
+
+.single-item-box:hover .content-hidden {
+    transform: translateY(0);
+    opacity: 1;
+    transition: opacity .65s cubic-bezier(.05, .2, .1, 1) .15s, transform .65 cubic-bezier(.05, .2, .1, 1) .15s;
+}
+
+/* === all hover potfolio end=== */
+
+.project-btn .btn {
+    position: relative;
+    left: -328px;
+    top: 106px;
+}
+
+.project-btn .btn {
+    background-color: #EF4461;
+    color: #fff !important;
+    border: 1px solid #EF4461;
+}
+
+.project-btn .btn:hover {
+    background: transparent;
+    color: #EF4461 !important;
+    border: 1px solid #fd4766;
+}
+
+.content-hidden .red-btn {
+    padding: 2px 20px;
+    height: 38px;
+    display: inline-block;
+    line-height: 33px;
+    border-radius: 4px;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+    color: #fff !important;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #ddddd0;
+    margin-left: 20px;
+    position: relative;
+    top: -26px;
+    transition: all 0.3s ease;
+}
+
+.content-hidden .red-btn:hover {
+    background: #fd4766;
+    color: #fff;
+    border: none;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* === 0.5 potfolio css here start === */
+
+/* === 0.5 contact css here start === */
+.contact-img {
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+.contact-img img {
+    width: 110%;
+}
+
+.contact-info .contact-address span {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #757575;
+    display: inline-block;
+}
+
+.contact-info .contact-address a {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 700;
+    color: rgba(198, 201, 216, .75);
+    display: inline-block;
+    margin-left: 18px;
+    position: relative;
+}
+
+.hover-me {
+    position: relative;
+}
+
+.hover-me::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%, #fd4766 79.69%);
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+
+.contact-address a:hover {
+    color:#fd4766;
+    transition: 0.2s ease;
+}
+
+.hover-me:hover::after {
+    width: 100%;
+}
+
+a:active,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    background: transparent;
+    color: #fff !important;
+    opacity: 0.6;
+    border-radius: 5px;
+    display: inline-block;
+    outline: none;
+    border-color: #808080;
+    border: none;
+    border: 1px solid #757575 !important;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px 15px;
+    color: #fff;
+    opacity: 0.6;
+    background: transparent;
+    border-radius: 5px;
+    display: inline-block;
+    outline: none;
+    border-color: #808080;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    opacity: 1;
+    color: #fff;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.contact-form .btn:hover {
+    color: #EF4461;
+    background: transparent;
+}
+
+.contact-form .sub-btn {
+    background-color: #EF4461;
+    color: #fff !important;
+    border: 1px solid #EF4461;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    margin-top: 30px;
+    margin-bottom: 52px;
+}
+
+.contact-form .sub-btn:hover {
+    background: transparent;
+    color: #EF4461 !important;
+    border: 1px solid #fd4766;
+    transition: all .4s ease-in-out;
+}
+
+/* === 0.5 contact css here end === */
+
+
+/* === 0.6 footer css here start === */
+footer {
+    background: #091020;
+}
+
+.footer-main {
+    padding: 27px 0;
+}
+
+.footer-logo a img {
+    max-width: 130px;
+    max-height: 60px;
+}
+
+.footer-icon ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 4px;
+}
+
+.footer-icon ul li a {
+    color: #fff;
+    display: block;
+    border: 2px solid #ddddd0;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    opacity: 0.6;
+}
+
+.footer-icon ul li:hover a {
+    background: #EF4461;
+    opacity: 1;
+    border: 2px solid #EF4461;
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
+
+.footer-icon i {
+    line-height: 45px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright p {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* === 0.6 footer css here end === */
